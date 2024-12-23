@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>APNs</key>
+			<array>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>3</integer>
+					<key>AllowedProtocolMaskInRoaming</key>
+					<integer>3</integer>
+					<key>AuthenticationType</key>
+					<string>CHAP</string>
+					<key>DefaultProtocolMask</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>m2m.tag.com</string>
+				</dict>
+			</array>
+			<key>AttachAPN</key>
+			<dict>
+				<key>AllowedProtocolMask</key>
+				<integer>3</integer>
+				<key>AuthenticationType</key>
+				<string>CHAP</string>
+				<key>Name</key>
+				<string>m2m.tag.com</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures cellular data settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Cellular</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.cellular.FFA81AC9-9C7C-4714-AB46-942C1479608B</string>
+			<key>PayloadType</key>
+			<string>com.apple.cellular</string>
+			<key>PayloadUUID</key>
+			<string>FFA81AC9-9C7C-4714-AB46-942C1479608B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Setting the Attach/Default APN to m2m.tag.com</string>
+	<key>PayloadDisplayName</key>
+	<string>A1.digital APN</string>
+	<key>PayloadIdentifier</key>
+	<string>bloodybastard.3552C42A-C653-4158-812F-F83472780776</string>
+	<key>PayloadOrganization</key>
+	<string>A1 digital</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>39F45A51-12B4-4486-8B73-BD0AFD3053EB</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
